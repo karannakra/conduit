@@ -1,0 +1,243 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+(ns app.core
+  "This namespace contains your application and is the entrypoint for 'yarn start'."
+  (:require [reagent.core :as r]
+            [ajax.core :refer [GET POST]]))
+nil
+cljs꞉app.core꞉>  ; Use `alt+enter` to evaluate
+#object[Object [object Object]]
+cljs꞉app.core꞉> 
+#object[Object [object Object]]
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+#object[Error Error: Invalid arity: 0]
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+#object[app$core$articles_browse]
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+#object[app$core$articles_browse]
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+#object[app$core$articles_browse]
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+#object[app$core$articles_browse]
+cljs꞉app.core꞉> 
+{"articles" [{"updatedAt" "2021-11-24T12:11:08.212Z", "body" "Share your knowledge and enpower the community by creating a new implementation", "createdAt" "2021-11-24T12:11:08.212Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Create-a-new-implementation-1", "tagList" ["implementations"], "favoritesCount" 3170, "title" "Create a new implementation", "description" "join the community by creating a new implementation"} {"updatedAt" "2021-11-24T12:11:07.952Z", "body" "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", "createdAt" "2021-11-24T12:11:07.952Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Explore-implementations-1", "tagList" ["codebaseShow" "implementations"], "favoritesCount" 1848, "title" "Explore implementations", "description" "discover the implementations created by the RealWorld community"} {"updatedAt" "2021-11-24T12:11:07.557Z", "body" "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", "createdAt" "2021-11-24T12:11:07.557Z", "author" {"username" "Gerome", "bio" nil, "image" "https://api.realworld.io/images/demo-avatar.png", "following" false}, "favorited" false, "slug" "Welcome-to-RealWorld-project-1", "tagList" ["welcome" "introduction"], "favoritesCount" 1302, "title" "Welcome to RealWorld project", "description" "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more"}], "articlesCount" 3}
+cljs꞉app.core꞉> 
+#object[app$core$articles_browse]
+cljs꞉app.core꞉> 
+#object[Object [object Object]]
+cljs꞉app.core꞉> 
+#object[app$core$articles_browse]
+cljs꞉app.core꞉> 
+{:articles [{:description "join the community by creating a new implementation", :slug "Create-a-new-implementation-1", :updatedAt "2021-11-24T12:11:08.212Z", :createdAt "2021-11-24T12:11:08.212Z", :title "Create a new implementation", :author {:username "Gerome", :bio nil, :image "https://api.realworld.io/images/demo-avatar.png", :following false}, :favoritesCount 3171, :body "Share your knowledge and enpower the community by creating a new implementation", :favorited false, :tagList ["implementations"]} {:description "discover the implementations created by the RealWorld community", :slug "Explore-implementations-1", :updatedAt "2021-11-24T12:11:07.952Z", :createdAt "2021-11-24T12:11:07.952Z", :title "Explore implementations", :author {:username "Gerome", :bio nil, :image "https://api.realworld.io/images/demo-avatar.png", :following false}, :favoritesCount 1849, :body "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", :favorited false, :tagList ["codebaseShow" "implementations"]} {:description "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more", :slug "Welcome-to-RealWorld-project-1", :updatedAt "2021-11-24T12:11:07.557Z", :createdAt "2021-11-24T12:11:07.557Z", :title "Welcome to RealWorld project", :author {:username "Gerome", :bio nil, :image "https://api.realworld.io/images/demo-avatar.png", :following false}, :favoritesCount 1303, :body "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", :favorited false, :tagList ["welcome" "introduction"]}], :articlesCount 3}
+cljs꞉app.core꞉> 
+#object[Object [object Object]]
+cljs꞉app.core꞉> 
+{:articles [{:description "join the community by creating a new implementation", :slug "Create-a-new-implementation-1", :updatedAt "2021-11-24T12:11:08.212Z", :createdAt "2021-11-24T12:11:08.212Z", :title "Create a new implementation", :author {:username "Gerome", :bio nil, :image "https://api.realworld.io/images/demo-avatar.png", :following false}, :favoritesCount 3172, :body "Share your knowledge and enpower the community by creating a new implementation", :favorited false, :tagList ["implementations"]} {:description "discover the implementations created by the RealWorld community", :slug "Explore-implementations-1", :updatedAt "2021-11-24T12:11:07.952Z", :createdAt "2021-11-24T12:11:07.952Z", :title "Explore implementations", :author {:username "Gerome", :bio nil, :image "https://api.realworld.io/images/demo-avatar.png", :following false}, :favoritesCount 1848, :body "Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.", :favorited false, :tagList ["codebaseShow" "implementations"]} {:description "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more", :slug "Welcome-to-RealWorld-project-1", :updatedAt "2021-11-24T12:11:07.557Z", :createdAt "2021-11-24T12:11:07.557Z", :title "Welcome to RealWorld project", :author {:username "Gerome", :bio nil, :image "https://api.realworld.io/images/demo-avatar.png", :following false}, :favoritesCount 1303, :body "See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec", :favorited false, :tagList ["welcome" "introduction"]}], :articlesCount 3}
+cljs꞉app.core꞉> 
+#object[Object [object Object]]
+cljs꞉app.core꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+nil
+cljs꞉app.core꞉> 
+nil
+cljs꞉app.core꞉> 
+#reitit.core.Match{:template "/", :data {:coercion #object[reitit.coercion.spec.t_reitit$coercion$spec30786], :name :app.core/home, :view #object[app$core$home_page]}, :result nil, :path-params {}, :path "/", :query-params {}, :parameters {:path {}, :query {}}}
+cljs꞉app.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var app.core/current-view
+--------------------------------------------------------------------------------
+
+cljs꞉app.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var app.core/current-view
+--------------------------------------------------------------------------------
+
+cljs꞉app.core꞉> 
+#reitit.core.Match{:template "/", :data {:coercion #object[reitit.coercion.spec.t_reitit$coercion$spec30786], :name :app.core/home, :view #object[app$core$home_page]}, :result nil, :path-params {}, :path "/", :query-params {}, :parameters {:path {}, :query {}}}
+cljs꞉app.core꞉> 
+#<Atom: #reitit.core.Match{:template "/", :data {:coercion #object[reitit.coercion.spec.t_reitit$coercion$spec30786], :name :app.core/home, :view #object[app$core$home_page]}, :result nil, :path-params {}, :path "/", :query-params {}, :parameters {:path {}, :query {}}}>
+cljs꞉app.core꞉> 
+:app.core/login
+cljs꞉app.core꞉> 
+#object[reitit$frontend$easy$href]
+cljs꞉app.core꞉> 
+"/login"
+cljs꞉app.core꞉> 
+quit
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var app.core/quit
+--------------------------------------------------------------------------------
+
+cljs꞉app.core꞉> 
+exit;
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var app.core/exit
+--------------------------------------------------------------------------------
+
+cljs꞉app.core꞉> 
+
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+#reitit.frontend.history.Html5History{:on-navigate #object[reitit$frontend$easy$start_BANG__$_rfe_on_navigate], :router #object[reitit.core.t_reitit$core28402], :listen-key #object[Object [object Object]], :click-listen-key #object[Object [object Object]]}
+cljs꞉app.core꞉> 
+nil
+cljs꞉app.routes꞉> 
+#<Atom: #reitit.core.Match{:template "/", :data {:coercion #object[reitit.coercion.spec.t_reitit$coercion$spec30786], :name :app.routes/home, :view #'app.pages.home/home-page}, :result nil, :path-params {}, :path "/", :query-params {}, :parameters {:path {}, :query {}}}>
+cljs꞉app.routes꞉> 
+:data
+cljs꞉app.routes꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var app.routes/matched-route
+--------------------------------------------------------------------------------
+
+cljs꞉app.routes꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var app.routes/matched-route
+--------------------------------------------------------------------------------
+
+cljs꞉app.routes꞉> 
+#<Atom: #reitit.core.Match{:template "/", :data {:coercion #object[reitit.coercion.spec.t_reitit$coercion$spec30786], :name :app.routes/home, :view #'app.pages.home/home-page}, :result nil, :path-params {}, :path "/", :query-params {}, :parameters {:path {}, :query {}}}>
+cljs꞉app.routes꞉> 
+{:username "karan", :email "karannakra1@gmail.com"}
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+{:user {:email "karannakra12@gmail.com", :username "karan1233332", :bio nil, :image nil, :token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmFubmFrcmExMkBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImthcmFuMTIzMzMzMiIsImlhdCI6MTY1ODQxMDcwMiwiZXhwIjoxNjYzNTk0NzAyfQ._eEvrRzWhEBUKP2X3hVdd-WMeTzBWMh0hqo0fmveg60"}}
+cljs꞉app.auth꞉> 
+{:email "karannakra12@gmail.com", :username "karan1233332", :bio nil, :image nil, :token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmFubmFrcmExMkBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImthcmFuMTIzMzMzMiIsImlhdCI6MTY1ODQxMDcwMiwiZXhwIjoxNjYzNTk0NzAyfQ._eEvrRzWhEBUKP2X3hVdd-WMeTzBWMh0hqo0fmveg60"}
+cljs꞉app.auth꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:20
+ Use of undeclared Var app.auth/user
+--------------------------------------------------------------------------------
+
+cljs꞉app.auth꞉> 
+#object[Error Error: Invalid arity: 0]
+cljs꞉app.auth꞉> 
+{:user {:email "karannakra12@gmail.com", :username "karan1233332", :bio nil, :image nil, :token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmFubmFrcmExMkBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImthcmFuMTIzMzMzMiIsImlhdCI6MTY1ODQxMDcwMiwiZXhwIjoxNjYzNTk0NzAyfQ._eEvrRzWhEBUKP2X3hVdd-WMeTzBWMh0hqo0fmveg60"}}
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+nil
+cljs꞉app.auth꞉> 
+"kadasdkasdjnasjdn"
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+#object[Object [object Object]]
+cljs꞉app.auth꞉> 
+; nREPL Connection was closed
